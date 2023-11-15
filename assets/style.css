@@ -1,3 +1,15 @@
 *{
-    color: red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+ /* css chung */
+.backGround_black{
+ background-color: black;
+ 
+}
+.textColor_white{
+    color: white;
+}
+
+
