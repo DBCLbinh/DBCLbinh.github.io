@@ -6,18 +6,38 @@
  /* css chung */
 .backGround_black{
  background-color: black;
- 
 }
 .textColor_white{
     color: white;
 }
+a{
+    text-decoration: none;
+}
 
 
 /* css từng phần */
-#heading .navigation{
-    display: inline;
-    
+#heading{
+    position: fixed;
+    width: 100%;
+    height: 46px;
 }
+
+#heading .navigation{
+    display: inline-block;   
+    text-decoration: none; 
+}
+
+#heading .search{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+
+}
+
+#heading .menu_dropDown{
+    position: absolute;
+}
+
 
 /* resposion */
 
