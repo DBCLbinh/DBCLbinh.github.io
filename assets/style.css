@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
  /* css chung */
 .backGround_black{
@@ -17,12 +18,13 @@ a{
 }
 
 .btn{
-    padding: 15px;
+    padding: 14px;
     color: white;
+    background-color: black;
 }
 
 .btn:hover{
-    background-color: antiquewhite;
+    background-color: #ddd;
 }
 
 .btn:hover a{
@@ -41,22 +43,28 @@ a{
     display: inline-block;   
 }
 
+
+#heading .more{
+    position: absolute;
+    padding: 14px;
+    color: white;
+    background-color: black;
+}
+#heading .menu_dropDown{
+    position: relative;
+    top: 0;   
+}
+
+#heading .dropDown_item{
+    display: block;
+}
+
 #heading .search{
     display: inline-block;
     position: absolute;
     right: 0;
     margin: 15px;
-
-
 }
-
-#heading .menu_dropDown{
-    position: absolute;
-    /* display: none; */
-    padding: 15px;
-    color: black;
-}
-
 
 /* resposion */
 
