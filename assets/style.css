@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
  /* css chung */
 .backGround_black{
@@ -12,6 +13,20 @@
 }
 a{
     text-decoration: none;
+    color: white;
+}
+
+.btn{
+    padding: 15px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+}
+
+.btn:hover a{
+    color: black;
 }
 
 
@@ -24,18 +39,22 @@ a{
 
 #heading .navigation{
     display: inline-block;   
-    text-decoration: none; 
 }
 
 #heading .search{
     display: inline-block;
     position: absolute;
     right: 0;
+    margin: 15px;
+
 
 }
 
 #heading .menu_dropDown{
     position: absolute;
+    /* display: none; */
+    padding: 15px;
+    color: black;
 }
 
 
