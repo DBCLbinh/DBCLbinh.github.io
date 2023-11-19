@@ -20,7 +20,6 @@ a{
 
 .btn{
     padding: 12px 24px ;
-
     color: white;
     background-color: black;
 }
@@ -45,19 +44,40 @@ a{
     display: inline-block; 
 }
 
-#heading .moreHover:hover{
-    background-color: red;
+#heading .more{
+    display: inline;
+    position: absolute;
+}
+
+#heading .more_down:hover{
+    color: black;
 }
 
 #heading .menu_dropDown{
-    background-color: #ddd;
+    display: none;
+}
 
-
+#heading .more:hover .menu_dropDown{
+    display: block;
 }
 
 #heading .dropDown_item{
     display: block;
+    width: 150px;
+    background-color: white;
 }
+
+
+#heading .dropDown_item:hover{
+ background-color: #ddd
+ ;    
+}
+
+#heading .dropDown_item a{
+    color: black;
+}
+
+
 
 
 #heading .search{
