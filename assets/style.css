@@ -34,10 +34,13 @@ a{
 
 
 /* css từng phần */
+
+/* phần heading */
 #heading{
     position: fixed;
     width: 100%;
     height: 46.5px;
+    top: 0;
 }
 
 #heading .navigation{
@@ -67,18 +70,13 @@ a{
     background-color: white;
 }
 
-
 #heading .dropDown_item:hover{
- background-color: #ddd
- ;    
+ background-color: #ddd;    
 }
 
 #heading .dropDown_item a{
     color: black;
 }
-
-
-
 
 #heading .search{
     display: inline-block;
@@ -90,6 +88,30 @@ a{
 #heading .search:hover{
  background-color: red;
 }
+
+/* phần slider */
+
+#slider{
+    margin-top: 47px;
+}
+
+#slider .slider{
+    position: absolute;
+    width: 100%;
+}
+
+#slider img{
+width: 100%;
+}
+
+#slider .textSlider{
+    text-align: center;
+    display: block;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+}
+
 
 /* resposion */
 
