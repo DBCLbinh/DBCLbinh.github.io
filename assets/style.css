@@ -32,6 +32,12 @@ a{
     color: black;
 }
 
+.section{
+    margin: auto;
+    padding: 64px 16px;
+    width: 800px;
+    background-color: black;
+}
 
 /* css từng phần */
 
@@ -124,6 +130,11 @@ font-weight: 400;
 #slider .textSlider h3{
  font-size: 15px;
  font-weight: 700px;   
+}
+
+/* phần the band */
+#theband{
+ height: 150px;
 }
 
 /* resposion */
