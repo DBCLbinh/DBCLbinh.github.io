@@ -97,8 +97,9 @@ a{
 }
 
 #slider .slider{
-    position: absolute;
+    position: relative;
     width: 100%;
+    background-color: black;
 }
 
 #slider img{
@@ -107,12 +108,23 @@ width: 100%;
 
 #slider .textSlider{
     text-align: center;
-    display: block;
-    background-color: red;
     position: absolute;
-    left: 50%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 32px 16px;
 }
 
+#slider .textSlider h2{
+margin: 10px 0px; 
+font-size: 24px;
+font-weight: 400;
+}
+
+#slider .textSlider h3{
+ font-size: 15px;
+ font-weight: 700px;   
+}
 
 /* resposion */
 
