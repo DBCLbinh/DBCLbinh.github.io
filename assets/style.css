@@ -132,8 +132,12 @@ font-weight: 400;
 }
 
 /* phần the band */
-#theband{
- height: 150px;
+
+#band .member{
+    display: flex;
+}
+#band .box_member{
+    display: inline-block;
 }
 
 /* resposion */
