@@ -38,6 +38,23 @@ a{
     width: 800px;
 }
 
+.section_heading{
+letter-spacing: 4px;
+font-weight: 400;
+font-size: 30px;
+text-align: center;
+margin: 10px 0px;
+}
+
+.sub_section_heading{
+ text-align: center;
+ font-style: italic;
+ opacity: 0.6;
+ font-weight: 200;
+ /* font-size: 15px; */
+}
+
+
 /* css từng phần */
 
 /* phần heading */
@@ -68,6 +85,7 @@ a{
 
 #heading .more:hover .menu_dropDown{
     display: block;
+    box-shadow: 3px 3px 3px black;
 }
 
 #heading .dropDown_item{
@@ -132,12 +150,29 @@ font-weight: 400;
 }
 
 /* phần the band */
+#band .para_intro{
+    margin: 15px 0px;
+    text-align: justify;
+}
 
 #band .member{
     display: flex;
+    text-align: center;
+    padding: 32px;
+    justify-content: space-around;
+    
 }
 #band .box_member{
     display: inline-block;
+}
+
+#band .member_name{
+    margin: 15px 0px;
+}
+
+#band .member_img{
+ width: 153.578px;
+ margin-bottom: 16px;
 }
 
 /* resposion */
