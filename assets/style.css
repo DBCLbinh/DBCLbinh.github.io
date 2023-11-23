@@ -175,5 +175,17 @@ font-weight: 400;
  margin-bottom: 16px;
 }
 
+
+/* phần tour */
+.background_tour{
+    background-color: black;
+}
+
+#tour{
+    color: white;
+    background-color: black;
+    background-origin: magin-box
+}
+
 /* resposion */
 
