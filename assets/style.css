@@ -54,6 +54,10 @@ margin: 10px 0px;
  /* font-size: 15px; */
 }
 
+li{
+    list-style: none;
+}
+
 
 /* css từng phần */
 
@@ -183,8 +187,34 @@ font-weight: 400;
 
 #tour{
     color: white;
+}
+#tour .calendar_perform{
+    background-color: white;
+}
+#tour .calendar_month{
+    color: #858484;
+    padding: 7px;
+    border: solid 0.1px #ddd;
+    position: relative;
+}
+
+#tour .soldOut{
+    background-color: red;
+    color: white;
+    display: inline;
+    padding: 4px;
+    margin: 0px  15px;
+}
+
+#tour .number_ticket{
+    display: inline;
     background-color: black;
-    background-origin: magin-box
+    padding: 1px 8px;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
 }
 
 /* resposion */
