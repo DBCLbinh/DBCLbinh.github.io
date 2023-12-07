@@ -190,6 +190,7 @@ font-weight: 400;
 }
 #tour .calendar_perform{
     background-color: white;
+    margin-top: 48px;
 }
 #tour .calendar_month{
     color: #858484;
@@ -215,6 +216,39 @@ font-weight: 400;
     position: absolute;
     right: 0;
     margin-right: 30px;
+}
+
+#tour .buy_ticket_area{
+    margin: 32px 0px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tour .buy_ticket_item{
+    display: inline-block;
+    width: 245.3px;
+    background-color: white;
+}
+
+
+#tour .buy_ticket_area img{
+    width: 100%;
+}
+
+#tour .buy_ticket_content{
+    padding: 15px;
+}
+
+#tour .tour_date{
+    color: #858484;
+    padding: 10px 0px;
+}
+
+
+#tour .buy_ticket_btn{
+    padding: 5px 12px;
+    margin: 15px 0px 0px 0px;
 }
 
 /* resposion */
